@@ -6,8 +6,8 @@ Author: D Sai Aravind Kasyap
 def prime_check(n):
     for i in range(2, n):
         if (n % i) == 0:
-            return False
-        return True
+            return "is not prime"
+        return "is prime"
     
 def palindrome_check(n):
     str_in = n.casefold()
