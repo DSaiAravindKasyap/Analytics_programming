@@ -1,5 +1,5 @@
 """
-This module implements the main functionality of Prime number checking.
+This module implements the main functionality of Prime number checking and palindrome checking.
 
 Author: D Sai Aravind Kasyap
 """
