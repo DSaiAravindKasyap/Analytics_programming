@@ -8,4 +8,11 @@ def prime_check(n):
         if (n % i) == 0:
             return False
         return True
-
+    
+def palindrome_check(n):
+    str_in = n.casefold()
+    rev = reversed(str_in)
+    if list(str_in) == list(rev):
+        return "Palindrome!"
+    else:
+        return "Not palindrome!"
